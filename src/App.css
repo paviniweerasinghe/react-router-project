@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+li {
+    color: rgb(156, 133, 133);
+}  
+
+li:hover {
+    color: darkslategray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+    color: #512;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.para {
+    color: #813;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.copy-right {
+    color: rgb(156, 133, 133);
 }
 
-.App-link {
-  color: #61dafb;
+/* .form-box {
+    padding: 6rem, 0 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form {
+    width: 10rem;
+    margin: 0 auto;
+} */
+
+/* .button-style {
+    width: 25%;
+    background: transparent;
+    border-color: #512 !important;
 }
+
+.button-style :hover {
+    background: #512 !important;
+
+    border-color: #813;
+} */
+
+/* input {
+    background: #512 !important;
+    opacity: 7;
+} */
+
+/* .navbar {
+    background: #512 !important;
+    color: aliceblue !important;
+} */
+
+.nav-container-fluid {
+    padding-right:0 ;
+    padding-left:0;
+    margin-right:auto ;
+    margin-left:auto ;
+ }
+
+ .nav-item {
+     margin-left: 50px;
+     font-weight: 500;
+ }
+
+ .card-img-top {
+     width: 10rem !important;
+     align-items: center !important;
+ }
